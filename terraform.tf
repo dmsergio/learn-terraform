@@ -3,13 +3,15 @@
 
 terraform {
 
+  /*
   cloud {
-    organization = "organization-name"
+    organization = "sergio-dm-torrent-learning-terraform"
 
     workspaces {
       name = "learn-terraform"
     }
   }
+  */
 
   required_providers {
     aws = {
